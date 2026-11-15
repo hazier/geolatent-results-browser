@@ -6,7 +6,11 @@ A public, static explorer for 7,762 spatial-reasoning evaluation cases.
 | --- | ---: | ---: | ---: |
 | MindCube TinyBench | 1,050 | 761 / 1,050 | 810 / 1,050 |
 | MMSI | 1,000 | 321 / 1,000 | 356 / 1,000 |
-| ViewSpatial | 5,712 | 2,667 / 5,712 | 2,598 / 5,712 |
+| ViewSpatial | 5,712 | 2,667 / 5,712 | 2,671 / 5,712 |
+
+The final RL aggregate was corrected by the author on 2026-11-15. Its accuracies
+are 35.60% (MMSI), 77.14% (MindCube-Tiny), and 46.76% (ViewSpatial), with an
+unweighted three-benchmark average of 53.17%. SFT case records are unchanged.
 
 Browse questions, answer choices, ground truth, SFT predictions, raw outputs,
 and saved latent execution summaries. Filter by category, correctness,
